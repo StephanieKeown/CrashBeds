@@ -52,3 +52,8 @@ SELECT current_user, current_database();
 
 Expected: `crashbeds_app | crashbeds`
 
+
+PORTS:
+Postgres runs on 5432
+For docker run on 5433
+--you may have both running and use the local port asa fallback, veer towards not using the one from the container only. 
